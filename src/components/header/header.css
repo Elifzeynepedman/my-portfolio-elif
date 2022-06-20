@@ -1,0 +1,158 @@
+.container{
+    background: var(--color-bg-variant);
+
+}
+.container a{
+    font-size: larger;
+}
+.web__name{
+    padding: 33px;
+    color: #1d04f8;
+
+}
+
+
+.header__links{
+    color: #37FFDF;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 720px;
+}
+
+h2{
+    display: inline;
+    font-size: 13px;
+    padding-left: 10px;
+}
+h2 a{
+    color: var(--color-text);
+}
+
+h2 a:hover{
+    color:  var(--color-text-variant);
+}
+
+
+img{
+    margin-left: 250px;
+    padding: 0;
+    margin-top: -20px;
+    border-radius: 17rem 17rem 1rem  1rem;
+    margin-bottom: 13px;
+}
+
+.img__header{
+    display: flex;
+}
+
+.image__me{
+    width: 290px;
+    height: 350px;
+    background: var(--color-bg);
+
+}
+
+.hello{
+    flex-grow:1 ;
+    margin-left: 100px;
+    color: #fff;
+    margin-top: 60px ;
+    font-size:large;
+    margin-right: 20px;
+
+}
+
+#hello__me{
+    margin-top: -10px;
+}
+#passionate{
+    margin-top: -10px;
+}
+.download__CV{
+    background: var(--color-box);
+    border:var(--color-box);
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: var(--color-text);
+    width: 20rem;
+    margin-top: 5px;
+}
+
+.download__CV a{
+    color: #0A192F;
+}
+
+.download__CV:hover{
+    background-color:#1d04f8;
+
+}
+
+
+.header__socials{
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+    gap: 0.8rem;
+    position: absolute;
+    bottom: 50rem;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        margin-bottom: 90px;
+        width: 820px;
+        padding-right: 40px;
+    }
+    .header__socials{
+        display: none;
+    }
+    img{
+        margin-left: 80px;
+    }
+    .header__links{
+        margin-left: 150px;
+
+    }
+    #hello__me{
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    #passionate{
+        margin-top: -10px;
+        font-size: 15px;
+
+    }
+    .hello{
+        margin-left: 70px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .download__CV{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:600px){
+
+.header__links{
+    display: none;
+}
+.container{
+   width: 340px;
+   height: 370px;
+}
+
+
+img{
+    display: none;
+}
+.hello{
+    margin-left: 30px;
+    margin-top: 30px;
+  
+}
+.download__CV{
+    margin-top: 0;
+}
+}

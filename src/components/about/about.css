@@ -1,0 +1,78 @@
+
+
+#about{
+    color: #331DF8;
+}
+
+#gettoknow{
+    color: var(--color-text-variant);
+    font-size: 11px;
+    margin-bottom: -15px;
+    margin-top: 30px;
+}
+
+#aboutme{
+    color:var(--color-text-variant);
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+
+.education{
+margin: 25px;
+color: #000;
+}
+.education bold{
+    color: var(--color-text-variant);
+}
+.language{
+    margin: 25px;
+
+}
+
+.mdLang,
+.edu__icon{
+    vertical-align: middle;
+}
+h4{
+    color: #1d04f8;
+    font-size: 18px;
+}
+.lang__cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+.lang__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.lang__card h5{
+    font-size: 15px;
+}
+
+.lang_style{
+    color: var(--color-bg);
+}
+@media screen and (max-width:1024px){
+    #gettoknow{
+        margin-top: -70px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .education p{
+        text-align: center;
+    }
+
+    .lang__cards{
+        margin-left:0px;
+    }
+}

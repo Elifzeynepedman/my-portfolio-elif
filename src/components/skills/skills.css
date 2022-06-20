@@ -1,0 +1,153 @@
+#skills{
+    color: #fff;
+    margin: 25px;
+}
+
+#skills_header{
+    color: var(--color-text);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.my__skills{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+.frontend{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+   /* text-align: center; */
+   
+
+}
+.frontend h5{
+    color: var(--color-text-variant);
+    margin-top: -10px;
+    font-size: medium;
+    text-align: center;
+}
+
+.skills__box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem
+}
+.check__icon{
+        vertical-align: middle;
+        color: var(--color-text-variant);
+}
+
+.frontend__skills p{
+    font-size: 18px;
+}
+
+#html{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 90%;
+    border: none;   
+    border-radius: 100px;
+
+}
+#css{
+    background-color:var(--color-text) ;
+    height: 3px;
+    width: 90%;
+    border: none;
+    border-radius: 100px;
+
+}
+#javascript{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 90%;
+    border: none;
+    border-radius: 100px;
+
+}
+#react{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 60%;
+    border: none;
+    border-radius: 100px;
+    /* when tablet margin-left:8px; */
+    margin-left: 15px;
+}
+
+#java{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 70%;
+    border: none;
+    margin-left: 8px;
+    border-radius: 100px;
+
+}
+
+#php{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 70%;
+    border: none;
+    margin-left: 8px;
+    border-radius: 100px;
+
+}
+
+#c__lang{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 50%;
+    border: none;
+    margin-left: 8px;
+    border-radius: 100px;
+
+}
+
+#kotlin{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 30%;
+    border: none;
+    margin-left: 8px;
+    border-radius: 100px;
+
+}
+
+#mysql{
+    background-color: var(--color-text) ;
+    height: 3px;
+    width: 70%;
+    border: none;
+    margin-left: 8px;
+    border-radius: 100px;
+
+}
+.frontend__skills small{
+    font-size: 9px;
+    top: -125px;}
+
+     
+    @media screen and (max-width:1024px){
+       
+    }
+    @media  screen and (max-width:600px){
+        .my__skills{
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 1.5rem;
+
+        }
+        
+      
+    
+    }

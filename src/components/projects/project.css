@@ -1,0 +1,44 @@
+#project__header{
+    color: var(--color-text);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+
+}
+
+.my__projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    margin: 20px;
+}
+
+.my__project{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.my__project h2{
+    color: var(--color-text-variant);
+    font-size: 16px;
+
+}
+.my__project p{
+    text-align: justify;
+}
+
+@media screen and (max-width:1024px){
+   
+}
+@media screen and (max-width:600px){
+    .my__project p{
+        text-align: left;
+    }
+}

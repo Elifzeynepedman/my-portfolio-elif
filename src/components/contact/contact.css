@@ -1,0 +1,37 @@
+
+.contact__h4{
+  text-align: center;
+}
+#contact button{
+  background: var(--color-text);
+  width: 310px;
+  height: 65px;
+  border-radius: 10px;
+  margin-left: 40%;
+  border: none;
+}
+
+#contact button:hover{
+  background: var(--color-bg-variant);
+ 
+}
+
+
+ 
+
+
+#contact a{
+  color: #fff;
+  font-size: large;
+  font-weight: 670;
+}
+@media screen and (max-width:1180px){
+  #contact button{
+    margin-left: 240px;
+  }
+}
+@media screen and (max-width:600px){
+  #contact button{
+    margin-left: 40px;
+  }
+}
