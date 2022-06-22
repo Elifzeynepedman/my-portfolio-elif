@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CV from'../../assets/CV - ELİF ZEYNEP EDMAN 2022docx.pdf'
-import ME from '../../assets/manhattan.png'
+import ME from '../../assets/Elif cv photo.jpeg'
 import HeaderSocials from './HeaderSocials'
 
 function Header() {
