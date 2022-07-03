@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import CV from'../../assets/Black White Minimalist CV Resume.pdf'
+import CV from'../../assets/CV Skills updated (1).pdf'
 import ME from '../../assets/Elif cv photo.jpeg'
 import HeaderSocials from './HeaderSocials'
 

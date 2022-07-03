@@ -6,6 +6,11 @@
     font-weight: 800;
 
 }
+.project__sites{
+    color: var(--color-text-variant);
+
+}
+
 
 .my__projects{
     display: grid;

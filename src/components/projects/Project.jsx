@@ -1,5 +1,6 @@
 import React from 'react'
 import './project.css'
+import {AiOutlineLink} from 'react-icons/ai'
 function project() {
   return (
    <section id='project'>
@@ -24,6 +25,12 @@ function project() {
           <h2>Moodly</h2>
           <p>A music streaming application where users can listen to playlists depending on their mood using their facial expressions.
             <br/> <br/>Developed using Java, Firebase, and Tensorflow</p>
+        </article>
+        <article className='my__project'>
+          <h2>About Movie</h2>
+          <p>A website where the user can view details about movies, search movies, and view trending movies
+            <br/> <br/>Developed using React and The Movie Database (TMDB) </p> 
+            <AiOutlineLink classNane="link__icon"  size={18} /> <a href='https://elifedmanaboutmovie.netlify.app/' className='project__sites' target="_blank">https://elifedmanaboutmovie.netlify.app/</a> 
         </article>
       </div>
    </section>
